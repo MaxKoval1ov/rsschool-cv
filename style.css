@@ -1,0 +1,55 @@
+.page{
+    max-width: 1024px;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: azure;
+}
+a{
+    color:blueviolet
+}
+
+main{
+    border:3px solid rgb(204, 0, 255);
+}
+
+a:hover{
+    color:rgb(255, 47, 47);
+}
+
+.photo{
+    height: 300px;
+    border: 3px solid #fff
+}
+
+.title{
+    font-weight:bold;
+}
+
+.title_exp
+{
+    font-weight:bold;
+    text-decoration:line-through;
+}
+
+.bold_text{
+    font-weight:bold;
+    font-style:italic;
+    color:hotpink
+}
+hr{
+    border: none; 
+    background-color: rgb(204, 0, 255); 
+    color: rgb(77, 9, 238); 
+    height: 2px; 
+}
+
+.img{
+    height: 120px;
+    border: 3px solid #fff;
+}
+footer{
+    
+    display:flex;
+    flex-wrap: nowrap;
+    }
