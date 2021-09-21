@@ -5,7 +5,7 @@ export default class Header extends Component {
   render() {
     return (
       <div>
-        <nav className="nav justify-content-center">
+        <nav className="nav">
           <a className="nav-link" href="#Skills">Skills</a>
           <a className="nav-link" href="#Code">Code</a>
           <a className="nav-link" href="#Experience">Experience</a>

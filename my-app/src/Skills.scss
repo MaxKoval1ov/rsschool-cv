@@ -1,0 +1,150 @@
+$primary:rgb(232, 8, 86);
+
+
+.skill_word{
+  color:$primary;
+}
+#Skills{
+  margin-top: 30px;
+  background: linear-gradient(21deg, #e4ca03, #5611ec);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 70%;
+  height: 300px;
+  position: relative;
+}
+
+
+.skill-point::before,.skill-point::after{
+  color:$primary
+}
+
+.skill-point::before{
+  content: "<";
+  margin-left: -12px;
+}
+
+.skill-point::after{
+  content: ">";
+}
+
+.row{
+  width: 100%;
+}
+.col{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tech_img {
+  width: 24px;
+  height: 24px;
+}
+
+.App-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  position:absolute ;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+  .React{
+    animation: React-logo-float infinite 3s ease-in-out;
+  }
+  .Redux{
+    animation: Redux-logo-float infinite 3s ease-out;
+  }
+}
+
+
+.Webpack{
+  background-color:#3d63ebc2;
+  top: -30px;
+  left: -131px;
+}
+
+.Redux{
+  background-color: #d38efdc2;
+  bottom: 0;
+  left: -90px;
+  width: 80px;
+  height: 80px;
+}
+
+.React{
+  background-color:#7895ffc2;
+  top: 186px;
+  right: -141px;
+  width: 130px;
+  height: 130px;
+
+}
+
+.Typescript{
+  background-color:#796dfcc2;
+  top: 0;
+  right: -141px;
+  width: 50px;
+  height: 50px;
+}
+
+
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes React-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes Redux-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
