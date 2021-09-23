@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
 import './App.scss';
 import { Button,ButtonGroup,ButtonToolbar } from 'react-bootstrap';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'

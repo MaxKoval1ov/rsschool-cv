@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Game from './game/Game'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { darcula } from 'react-syntax-highlighter/dist/cjs/styles/prism';
+import mProject from './my-project.png'
 
 export default class Exp extends Component {
 
@@ -24,6 +25,21 @@ export default class Exp extends Component {
         <SyntaxHighlighter className = "highLight" language="javascript" style={darcula}>
          {this.codeString}
         </SyntaxHighlighter>
+        <h5 style = {{width:"100%"}}>Links to projects:</h5>
+          {/* <div className="img-container"><a href="https://rolling-scopes-school.github.io/maxkoval1ov-JSFE2021Q1/online-zoo/" className="link_to_project"></a></div> */}
+          <a href="https://rolling-scopes-school.github.io/maxkoval1ov-JSFE2021Q1/online-zoo/" title = "test_project">
+            <div className="dws">
+              <div className="blocImg">
+                <img src={mProject} alt="CSS эффект"/>
+                <div className="blocText">
+                    <div className="text">
+                      <h2>Online-zoo <span>with using</span></h2>
+                      <p>CSS, JS, HTML</p>
+                    </div>
+                </div>
+              </div>
+                    </div>
+          </a>
       </section>
     )
   }

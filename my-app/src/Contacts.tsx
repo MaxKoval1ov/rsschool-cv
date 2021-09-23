@@ -22,7 +22,7 @@ export default class Contacts extends Component {
   render() {
     return (
       <section className = "Contacts" id = "Contacts">
-        <h1>Contacts:</h1>
+        <h2>Contacts:</h2>
         <ul className = "contact_list">
           <li style = {styles} className = "contact">Minsk,Belarus</li>
           <li style = {styles} className = "contact">+375291205051</li>

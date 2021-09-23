@@ -13,20 +13,20 @@ export default class Skills extends Component {
       <section className = "Skills" id = "Skills">
         <h3 className = "skills-title">My hard <span className="skill_word">skills</span>:</h3>
         <Container >
-          <Row>
-            <Col className = "skill-point">JS</Col>
-            <Col className = "skill-point">HTML</Col>
-            <Col className = "skill-point">CSS</Col>
+          <Row as= 'ul'>
+            <Col as= 'li' className = "skill-point">JS</Col>
+            <Col as= 'li' className = "skill-point">HTML</Col>
+            <Col as= 'li' className = "skill-point">CSS</Col>
           </Row>
-          <Row>
-            <Col className = "skill-point">React</Col>
-            <Col className = "skill-point">Webpack</Col>
-            <Col className = "skill-point">TypeScript</Col>
+          <Row as= 'ul'>
+            <Col as= 'li' className = "skill-point">React</Col>
+            <Col as= 'li' className = "skill-point">Webpack</Col>
+            <Col as= 'li' className = "skill-point">TypeScript</Col>
           </Row>
-          <Row>
-            <Col className = "skill-point">C++</Col>
-            <Col className = "skill-point">C</Col>
-            <Col className = "skill-point">ASM</Col>
+          <Row as= 'ul'>
+            <Col as= 'li' className = "skill-point">C++</Col>
+            <Col as= 'li' className = "skill-point">C</Col>
+            <Col as= 'li' className = "skill-point">ASM</Col>
           </Row>
           <div className="Webpack App-logo"><img className = "tech_img" src={webpack} alt="webpack" /></div>
           <div className="React App-logo"><img className = "tech_img" src={react} alt="react" /></div>
